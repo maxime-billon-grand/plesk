@@ -7,6 +7,8 @@
 
 body{
 	background: linear-gradient(to right, #3525af, #9153c9);
+	display:flex;
+	justify-content:center;
 }
 
 .resume{
@@ -184,3 +186,27 @@ ul{
     margin-bottom: 20px;
 }
 
+.projects_links{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 15px;
+	margin-top:25px;
+	padding-top:25px;
+}
+
+.projects_links .projects_title{
+	text-align:center;
+	margin-bottom: 25px;
+}
+
+.projects_links ul{
+	display: flex;
+	flex-direction: column;
+	padding-left: 5%;
+	list-style: inside square;
+}
+
+.projects_links li{
+	margin-bottom: 2%;
+}
