@@ -67,14 +67,14 @@ h2{
 	margin-bottom: 15px;
 }
 
-h2:before{
+h2:before, .projects_header:before{
 	content: "";
 	position: absolute;
 	top: 35px;
 	right: 0;
 	width: 50px;
 	height: 3px;
-	background: #3525af;
+	background: #4933F0;
 }
 
 ul{
@@ -192,21 +192,42 @@ ul{
 	background-color: white;
 	border-radius: 15px;
 	margin-top:25px;
-	padding-top:25px;
+	padding:25px 0px;
+	height:100%;
+	width:15%;
 }
 
-.projects_links .projects_title{
-	text-align:center;
-	margin-bottom: 25px;
+.projects_header{
+	text-align:right;
+	margin-bottom: 15%;
+	margin-right:5%;
+	color: #4933F0;
+	text-transform: uppercase;
+	position:relative;
 }
 
-.projects_links ul{
+.project{
+	display:flex;
+	flex-direction:column;
+	margin-bottom:10px;
+}
+
+.project_title{
+	text-align: center;
+	color: #9153c9;
+	margin-bottom:10px;
+}
+.project_linklist{
+	margin-bottom:20px;
+}
+
+.project_linklist ul{
 	display: flex;
 	flex-direction: column;
 	padding-left: 5%;
 	list-style: inside square;
 }
 
-.projects_links li{
+.projects_linklist li{
 	margin-bottom: 2%;
 }
